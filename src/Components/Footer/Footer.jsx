@@ -1,0 +1,13 @@
+import React from 'react'
+
+export default function Footer() {
+  return <>
+  <footer className='bg-dark p-2 text-center text-white fixed-bottom'>
+ 
+    <h2>Footer</h2>
+    
+  </footer>
+  
+  
+  </>
+}
