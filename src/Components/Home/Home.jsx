@@ -13,17 +13,16 @@ export default function Home() {
         let {data} = await axios.get("https://api.themoviedb.org/3/trending/movie/day?api_key=fc708b614e576b767c05e61adb675805")
         setTrendingMovies(data.results) };
 
-    async function getTv()  {
+     async function getTv()  {
         let { data } = await axios.get("https://api.themoviedb.org/3/trending/tv/day?api_key=fc708b614e576b767c05e61adb675805")
-            setTrendingTv(data.results) };
-    
-        
+            setTrendingTv(data.results) };       
 
-        useEffect(()=> {
+        useEffect(()=> 
+            {
         // api call
             getMovie() 
              getTv()
-        } , [])
+                            } , [])
 
 
         return <>
@@ -56,8 +55,8 @@ export default function Home() {
                 ))}
             </div>
 
-        
-        
+
+
         </>
         };
 
