@@ -12,7 +12,7 @@ import Web from './Components/Web/Web';
 import Mobile from './Components/Mobile/Mobile';
 import BaseComponent from 'bootstrap/js/dist/base-component';
 
-// let routers = createBrowserRouter ([
+// let routers = createBrowserRouter ([ 
 let routers = createHashRouter ([
   
   {
