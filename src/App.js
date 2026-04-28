@@ -1,5 +1,6 @@
 import React from 'react'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+// import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import Layout from './Components/Layout/Layout';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
@@ -9,8 +10,11 @@ import Gallry from './Components/Gallry/Gallry';
 import Notfound from './Components/Notfound/Notfound';
 import Web from './Components/Web/Web';
 import Mobile from './Components/Mobile/Mobile';
+import BaseComponent from 'bootstrap/js/dist/base-component';
 
-let routers = createBrowserRouter([
+// let routers = createBrowserRouter ([
+let routers = createHashRouter ([
+  
   {
     path: '',
     element: <Layout />,
