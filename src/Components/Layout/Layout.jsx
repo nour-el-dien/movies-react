@@ -8,7 +8,7 @@ export default function Layout() {
   return <>
   
   <Navbar/>
-<div className="container">
+<div className="container pb-5">
   <Outlet className="bg-dark"></Outlet>
 
 </div>

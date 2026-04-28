@@ -3,14 +3,14 @@ import React from 'react'
 import { createHashRouter, RouterProvider } from 'react-router-dom';
 import Layout from './Components/Layout/Layout';
 import Home from './Components/Home/Home';
-import About from './Components/About/About';
+import Movies from './Components/Movies/Movies';
 import Contacts from './Components/Contacts/Contacts';
 import Child from './Components/Child/Child';
 import Gallry from './Components/Gallry/Gallry';
 import Notfound from './Components/Notfound/Notfound';
 import Web from './Components/Web/Web';
 import Mobile from './Components/Mobile/Mobile';
-import BaseComponent from 'bootstrap/js/dist/base-component';
+
 
 // let routers = createBrowserRouter ([
 let routers = createHashRouter ([
@@ -20,7 +20,7 @@ let routers = createHashRouter ([
     element: <Layout />,
     children: [
       { index:true , element: <Home /> },
-      { path: 'About', element: <About /> },
+      { path: 'Movies', element: <Movies /> },
       { path: 'Contacts', element: <Contacts /> },
       { path: 'Child', element: <Child />},
       { path: 'gallry', element: <Gallry /> , 

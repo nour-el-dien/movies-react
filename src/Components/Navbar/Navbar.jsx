@@ -20,7 +20,7 @@ export default function Navbar() {
           <Link className="nav-link" to="Gallry">Gallry</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="about">About</Link>
+          <Link className="nav-link" to="Movies">Movies</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="Contacts">Contacts</Link>
