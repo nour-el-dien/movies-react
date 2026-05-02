@@ -21,7 +21,7 @@ useEffect (()=> {
 
 
  return (<>
-  <h1>tv</h1>
+  <h1>Tv</h1>
   <div className="row">
     {trendingTv.map ((tv, index)=>
 
