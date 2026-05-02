@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/movies-react/static/css/main.4ad3c2f9.css",
-    "main.js": "/movies-react/static/js/main.f9d63613.js",
+    "main.css": "/movies-react/static/css/main.67654186.css",
+    "main.js": "/movies-react/static/js/main.e9116733.js",
     "static/js/453.fd0be407.chunk.js": "/movies-react/static/js/453.fd0be407.chunk.js",
     "static/media/fa-solid-900.woff2": "/movies-react/static/media/fa-solid-900.8ae0d37556ff1e685de2.woff2",
     "static/media/fa-brands-400.woff2": "/movies-react/static/media/fa-brands-400.1c5c7716b05754cb4eab.woff2",
     "static/media/fa-regular-400.woff2": "/movies-react/static/media/fa-regular-400.6f05ca9ab7b5345dbc07.woff2",
     "static/media/fa-v4compatibility.woff2": "/movies-react/static/media/fa-v4compatibility.e4340c52a50e727c6afa.woff2",
     "index.html": "/movies-react/index.html",
-    "main.4ad3c2f9.css.map": "/movies-react/static/css/main.4ad3c2f9.css.map",
-    "main.f9d63613.js.map": "/movies-react/static/js/main.f9d63613.js.map",
+    "main.67654186.css.map": "/movies-react/static/css/main.67654186.css.map",
+    "main.e9116733.js.map": "/movies-react/static/js/main.e9116733.js.map",
     "453.fd0be407.chunk.js.map": "/movies-react/static/js/453.fd0be407.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ad3c2f9.css",
-    "static/js/main.f9d63613.js"
+    "static/css/main.67654186.css",
+    "static/js/main.e9116733.js"
   ]
 }
