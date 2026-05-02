@@ -1,13 +1,39 @@
-import React, { Component } from 'react';
+import axios from 'axios'
+import React, {  useEffect, useState } from 'react'
 
-export default class Movies extends Component {
-    render() {
-        return (
-            <div>
-                <h1>Movies Component</h1>
-            </div>
-        );
-    }
+
+export default function Movies() {
+ 
+  const [trendingMovies , setTrendingMovies] =useState ([])
+
+        async function getMovie() {
+        let {data} = await axios.get("https://api.themoviedb.org/3/trending/movie/day?api_key=fc708b614e576b767c05e61adb675805")
+        setTrendingMovies(data.results) }; 
+ 
+ 
+    useEffect(()=>
+    {
+        // api call
+        getMovie() 
+    } , []) 
+    
+    
+    
+return (<>
+  <h1>Movies</h1>
+  <div className="row">
+    {trendingMovies.map ((movie, index)=>
+
+      <div className="col-md-3 " key={movie.id}>
+
+        <div className="card w-100"></div>
+        <img src={"https://image.tmdb.org/t/p/w500/"+movie.poster_path} className='w-100' alt="" />
+        <div className="card-text">{movie.title ||movie.name}</div>
+
+      </div>
+  
+  )}
+  </div>
+    </>
+  )
 }
-
-

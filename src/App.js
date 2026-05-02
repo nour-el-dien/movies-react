@@ -10,6 +10,8 @@ import Gallry from './Components/Gallry/Gallry';
 import Notfound from './Components/Notfound/Notfound';
 import Web from './Components/Web/Web';
 import Mobile from './Components/Mobile/Mobile';
+import Tv from './Components/Tv/Tv';
+
 
 
 // let routers = createBrowserRouter ([ 
@@ -21,6 +23,7 @@ let routers = createHashRouter ([
     children: [
       { index:true , element: <Home /> },
       { path: 'Movies', element: <Movies /> },
+      { path: 'Tv', element: <Tv /> },
       { path: 'Contacts', element: <Contacts /> },
       { path: 'Child', element: <Child />},
       { path: 'gallry', element: <Gallry /> , 
