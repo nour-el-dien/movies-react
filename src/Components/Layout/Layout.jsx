@@ -8,8 +8,8 @@ export default function Layout() {
   return <>
   
   <Navbar/>
-<div className="container pb-5">
-  <Outlet className="bg-dark"></Outlet>
+<div className="container-fluid  bg-dark text-bg-dark pb-5">
+  <Outlet ></Outlet>
 
 </div>
   

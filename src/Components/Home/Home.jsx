@@ -32,10 +32,10 @@ export default function Home() {
                 <div key={movie.id} className='col-md-3 g-3'>
             
                         
-                        <div className="card w-100" >
+                        <div className="card w-100 border-0" >
                         <img src={"https://image.tmdb.org/t/p/w500/"+movie.poster_path}  className="w-100" alt="..."/>
                         <div className="card-body p-2">
-                        <h1 className="card-text h6">{movie.title ||movie.name}</h1>
+                        <h1 className="card-text text-center h6">{movie.title ||movie.name}</h1>
                              </div>
                           </div>                 
                 </div>
@@ -45,10 +45,10 @@ export default function Home() {
                     <div className='row'>
                 {trendingTv.map((tv, index) => (
                     <div key={tv.id} className='col-md-3 g-3'>
-                        <div className="card w-100" >
+                        <div className="card w-100 border-0" >
                             <img src={"https://image.tmdb.org/t/p/w500/" + tv.poster_path} className="w-100" alt="..." />       
                             <div className="card-body p-2">
-                                <h1 className="card-text h6">{tv.title || tv.name}</h1>
+                                <h1 className="card-text text-center h6">{tv.title || tv.name}</h1>
                             </div>
                         </div>
                     </div>
