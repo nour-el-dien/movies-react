@@ -28,7 +28,8 @@ return (<>
 
         <div className="card w-100 border-0">
         <img src={"https://image.tmdb.org/t/p/w500/"+movie.poster_path} className='w-100' alt="" />
-        <div className="card-text text-center">{movie.title ||movie.name}</div>
+        <div className="card-text text-center h5">{movie.title ||movie.name}</div>
+        <div className="h5 card-text text-center">release date : {movie.release_date}</div>
         </div>
 
 

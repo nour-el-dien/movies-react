@@ -19,8 +19,7 @@ let routers = createHashRouter ([
   
   {
     path: '',
-    element: <Layout />,
-    children: [
+    element: <Layout />,children: [
       { index:true , element: <Home /> },
       { path: 'Movies', element: <Movies /> },
       { path: 'Tv', element: <Tv /> },
