@@ -20,7 +20,7 @@ export default class Gallry extends Component {
             </li>
         </ul>
       </div>
-      <div className="col-md-9">
+      <div className="col-md-2">
         <Outlet />
       </div>
       </div>

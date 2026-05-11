@@ -22,7 +22,7 @@ export default function Home() {
         // api call
             getMovie() 
              getTv()
-                            } , [])
+                            } , []);
 
 
         return <>
@@ -48,7 +48,7 @@ export default function Home() {
                         <div className="card w-100 border-0" >
                             <img src={"https://image.tmdb.org/t/p/w500/" + tv.poster_path} className="w-100" alt="..." />       
                             <div className="card-body p-2">
-                                <h1 className="card-text text-center h6">{tv.title || tv.name}</h1>
+                                <h5 className="card-title text-center h6">{tv.title || tv.name}</h5>
                             </div>
                         </div>
                     </div>
@@ -59,6 +59,7 @@ export default function Home() {
 
         </>
         };
+
 
 
 

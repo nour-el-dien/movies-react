@@ -37,8 +37,8 @@ export default function Footer() {
         <div className="footer__block">
           <p className="footer__title">Contact</p>
           <ul className="footer__contact">
-            <li className="footer__contact-item">Email: hello@yourcompany.com</li>
-            <li className="footer__contact-item">Phone: +1 (555) 123-4567</li>
+            <li className="footer__contact-item">Email: mohamednorldin11@gmail.com</li>
+            <li className="footer__contact-item">Phone: +20 (11) 5184-5185</li>
             <li className="footer__contact-item">Location: 123 Business Ave, Suite 400</li>
           </ul>
         </div>

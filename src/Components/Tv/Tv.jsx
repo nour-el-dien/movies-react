@@ -29,7 +29,10 @@ useEffect (()=> {
 
         <div className="card w-100 border-0">
         <img src={"https://image.tmdb.org/t/p/w500/"+tv.poster_path} className='w-100' alt="" />
-        <div className="card-text text-center ">{tv.title ||tv.name}</div>
+        <div >
+        <div className="card-text text-center h5 w-100 ">{tv.title ||tv.name}</div>
+        <div className="h5 card-text text-center w-100">release date : {tv.first_air_date}</div>
+        </div>
         </div>
 
 
