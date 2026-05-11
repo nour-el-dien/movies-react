@@ -22,11 +22,11 @@ export default function Home() {
         // api call
             getMovie() 
              getTv()
-                            } , []);
+                            } , [])
 
 
         return <>
-        <h2>Movies</h2>
+        <h2 className='text-center'>Movies</h2>
             <div className="row">
                 { trendingMovies.map ((movie , index)=> 
                 <div key={movie.id} className='col-md-3 g-3'>
@@ -41,7 +41,7 @@ export default function Home() {
                 </div>
                 )}
             </div>
-                    <h2 className='py-3'>Tv Shows</h2>
+                    <h2 className='py-3 text-center'>Tv Shows</h2>
                     <div className='row'>
                 {trendingTv.map((tv, index) => (
                     <div key={tv.id} className='col-md-3 g-3'>
