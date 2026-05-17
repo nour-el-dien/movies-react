@@ -11,6 +11,7 @@ import Notfound from './Components/Notfound/Notfound';
 import Web from './Components/Web/Web';
 import Mobile from './Components/Mobile/Mobile';
 import Tv from './Components/Tv/Tv';
+import Games from './Components/Games/Games';
 
 
 
@@ -21,7 +22,8 @@ let routers = createHashRouter ([
     path: '',
     element: <Layout />,children: [
       { index:true , element: <Home /> },
-      { path: 'Movies', element: <Movies /> },
+      { path: 'Movies', element: <Movies /> }, 
+      { path: 'Games', element: <Games /> }, 
       { path: 'Tv', element: <Tv /> },
       { path: 'Contacts', element: <Contacts /> },
       { path: 'Child', element: <Child />},
