@@ -16,3 +16,33 @@
 body {
   background-color: #0b1120;
 }
+
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #38bdf8;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(56, 189, 248, 0.4);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.scroll-to-top-btn:hover {
+  background-color: #0ea5e9;
+  box-shadow: 0 6px 16px rgba(56, 189, 248, 0.6);
+  transform: translateY(-3px);
+}
+
+.scroll-to-top-btn:active {
+  transform: translateY(-1px);
+}

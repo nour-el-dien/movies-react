@@ -2,9 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
+
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-custom">
+    <nav className="navbar navbar-expand-lg navbar-custom sticky-top" >
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           Movies React
@@ -60,3 +61,5 @@ export default function Navbar() {
     </nav>
   );
 }
+
+
