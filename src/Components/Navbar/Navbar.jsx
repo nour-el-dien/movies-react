@@ -36,13 +36,13 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/Games">
-                Games
+              <Link className="nav-link" to="/Tv">
+                TV
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/Tv">
-                TV
+              <Link className="nav-link" to="/games">
+                Games
               </Link>
             </li>
             <li className="nav-item">

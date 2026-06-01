@@ -8,9 +8,9 @@ export default class Gallry extends Component {
   render() {
     return <>
      <div><h1>Gallry Component</h1></div>
-     <div className="container">
+     <div className="container-fluid">
       <div className="row">
-      <div className="col-md-2">
+      <div className="col-md-6">
         <ul>
           <li>
             <Link to="Web">Web</Link>
@@ -20,7 +20,7 @@ export default class Gallry extends Component {
             </li>
         </ul>
       </div>
-      <div className="col-md-2">
+      <div className="col-md-6">
         <Outlet />
       </div>
       </div>

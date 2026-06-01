@@ -19,6 +19,7 @@ async function getGames() {
                     getGames() 
                      
                                     } , [])
+                                    
   return<>
 
 
@@ -40,6 +41,7 @@ async function getGames() {
                 </div>
                 )}
             </div>
+            
 
 
 

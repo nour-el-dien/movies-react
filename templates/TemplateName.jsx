@@ -2,9 +2,9 @@ import React from 'react'
 import style from './TemplateName.module.css'
 
 
-export default function test() {
+export default function TemplateName() {
   return <>
-    <h1>test</h1>
+    <h1>TemplateName</h1>
 
   </>
 

@@ -25,7 +25,7 @@ return (<>
   <div className="row">
     {trendingMovies.map ((movie, index)=>
 
-      <div className="col-md-3 g-3" key={movie.id}>
+      <div className="col-md-2 g-3" key={movie.id}>
 
         <div className="card w-100 border-0">
         <img src={"https://image.tmdb.org/t/p/w500/"+movie.poster_path} className='w-100' alt="" />
