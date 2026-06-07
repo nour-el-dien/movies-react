@@ -7,7 +7,7 @@ export default function Games() {
     
 async function getGames() {
 
-        let {data} = await axios.get("https://api.rawg.io/api/games?key=b20a9aec3a334ac79cb7001b6722ce6f")
+        let {data} = await axios.get("https://api.rawg.io/api/games?key=b20a9aec3a334ac79cb7001b6722ce6f&dates=2025-01-01,2025-12-31&ordering=-added")
         setTrendingGames(data.results) };
 
         console.log();
@@ -18,7 +18,7 @@ async function getGames() {
                 // api call
                     getGames() 
                      
-                                    } , [])
+                    } , [])
                                     
   return<>
 
