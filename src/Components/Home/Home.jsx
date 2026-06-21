@@ -29,7 +29,7 @@ export default function Home() {
         <h2 className='text-center py-3 fw-bold mb-4' style={{color: '#F5E9D8'}}>Movies</h2>
             <div className="row">
                 { trendingMovies.map ((movie , index)=> 
-                <div key={movie.id} className='col-md-2 g-3'>
+                <div key={movie.id} className='col-lg-3 col-md-4 col-sm-6 g-3'>
             
                         
                         <div className="card w-100 border-0" >
@@ -44,7 +44,7 @@ export default function Home() {
                     <h2 className='py-3 text-center fw-bold mb-4' style={{color: '#F5E9D8'}}>Tv Shows</h2>
                     <div className='row'>
                 {trendingTv.map((tv, index) => (
-                    <div key={tv.id} className='col-md-2 g-3'>
+                    <div key={tv.id} className='col-lg-3 col-md-4 col-sm-6 g-3'>
                         <div className="card w-100 border-0" >
                             <img src={"https://image.tmdb.org/t/p/w500/" + tv.poster_path} className="w-100" alt="..." />       
                             <div className="card-body p-2">
